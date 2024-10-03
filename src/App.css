@@ -71,6 +71,13 @@ button{
 button:hover{
     background-color: #2980b9;
 }
+.data button:nth-last-child(1){
+    background-color: rgb(240, 36, 36);
+    margin-left: 10px;
+}
+.data button:nth-last-child(1):hover{
+    background-color: rgb(198,36,36);
+}
 .result{
     margin-top: 20px;
     border: 1px solid #3498db;
@@ -85,4 +92,9 @@ button:hover{
 .result p:first-child{
     color:#3498db;
     font-weight: bold;
+}
+.error{
+    color:red;
+    font-size: 14px;
+    margin-bottom: 10px;
 }
