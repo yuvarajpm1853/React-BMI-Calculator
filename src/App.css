@@ -71,3 +71,18 @@ button{
 button:hover{
     background-color: #2980b9;
 }
+.result{
+    margin-top: 20px;
+    border: 1px solid #3498db;
+    padding: 10px;
+    border-radius:  4px;
+    font-size: 20px;
+}
+.result p {
+    margin: 10px 0;
+    color: #555;
+}
+.result p:first-child{
+    color:#3498db;
+    font-weight: bold;
+}
