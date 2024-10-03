@@ -46,13 +46,14 @@ function App() {
       {error && <div className="error">{error}</div>}
       <div className="input-container">
         <label htmlFor="height">Height (cm) :</label>
-        <input type="number" required id="height" 
+        {/* cant use number type with input tag */}
+        <input type="text" required id="height" 
         value={height} placeholder='170'
         onChange={e=> setHeight(e.target.value)} />
       </div>
       <div className="input-container">
         <label htmlFor="weight">Weight (kg) :</label>
-        <input type="number" required id="weight" 
+        <input type="text" required id="weight" 
         value={weight} placeholder='60'
         onChange={e=> setWeight(e.target.value)}/>
       </div>
