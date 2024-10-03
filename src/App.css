@@ -71,11 +71,13 @@ button{
 button:hover{
     background-color: #2980b9;
 }
-.data button:nth-last-child(1){
+/* nth-of-type vs nth-last-child */
+/* Here result is added . So , it makes changes and represent calculate button*/
+.data button:nth-of-type(2){
     background-color: rgb(240, 36, 36);
     margin-left: 10px;
 }
-.data button:nth-last-child(1):hover{
+.data button:nth-of-type(2):hover{
     background-color: rgb(198,36,36);
 }
 .result{
